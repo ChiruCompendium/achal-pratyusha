@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Pratyusha & Achal//Wedding//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:pa-2026-muhurtham@pratyusha-achal
+DTSTAMP:20261022T000000Z
+DTSTART:20261121T001900Z
+DTEND:20261121T011900Z
+SUMMARY:Pratyusha & Achal — Sumuhurtham (Thula Lagnam 05:49 a.m.)
+LOCATION:Tatva Convention & Gardens\, Above Renault Showroom\, L.B. Nagar\, Nagole\, Hyderabad
+DESCRIPTION:Muhurtham — Thula Lagnam at 05:49 a.m. IST.
+BEGIN:VALARM
+TRIGGER:-PT90M
+ACTION:DISPLAY
+DESCRIPTION:Muhurtham at 05:49 a.m.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pa-2026-lunch@pratyusha-achal
+DTSTAMP:20261022T000000Z
+DTSTART:20261121T070000Z
+DTEND:20261121T093000Z
+SUMMARY:Pratyusha & Achal — Reception Lunch
+LOCATION:Tatva Convention & Gardens\, Above Renault Showroom\, L.B. Nagar\, Nagole\, Hyderabad
+DESCRIPTION:Lunch from 12:30 p.m. IST.
+END:VEVENT
+END:VCALENDAR
