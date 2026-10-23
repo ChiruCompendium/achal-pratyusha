@@ -154,12 +154,12 @@ html[lang=te] .btn, html[lang=hi] .btn, html[lang=te] .pill, html[lang=hi] .pill
 @keyframes hfIn{from{opacity:0;transform:scale(1.05) translateX(-6px)}to{opacity:1;transform:none}}
 .scene.active #hands .hf{animation:hBreathe 5s ease-in-out 2.8s infinite}
 #hands .sep{position:absolute;height:auto;max-width:none;opacity:0;pointer-events:none}
-#hands .sb{left:28px;top:36px;width:223px;transform-origin:0 50%;z-index:2;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 16%);mask-image:linear-gradient(90deg,transparent 0,#000 16%)}
-#hands .sg{left:236px;top:-50px;width:125px;transform-origin:50% 78%;z-index:1}
+#hands .sb{left:32px;top:42px;width:172px;transform-origin:19% 42%;z-index:2;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 16%);mask-image:linear-gradient(90deg,transparent 0,#000 16%)}
+#hands .sg{left:169px;top:-82px;width:110px;transform-origin:50% 75%;z-index:1}
 .scene.active #hands .sb{animation:sbIn 2.1s cubic-bezier(.33,.15,.4,1) .3s both}
 .scene.active #hands .sg{animation:sgIn 2.1s cubic-bezier(.33,.15,.4,1) .3s both}
-@keyframes sbIn{0%{opacity:0;transform:translateX(-120px)}14%{opacity:1}62%{opacity:1}100%{opacity:0;transform:none}}
-@keyframes sgIn{0%{opacity:0;transform:translate(100px,16px) rotate(-74deg) scaleX(-1)}14%{opacity:1}62%{opacity:1}100%{opacity:0;transform:translate(-8px,0) rotate(-82deg) scaleX(-1)}}
+@keyframes sbIn{0%{opacity:0;transform:translate(-140px,-60px) rotate(4deg)}14%{opacity:1}62%{opacity:1}100%{opacity:0;transform:rotate(11deg)}}
+@keyframes sgIn{0%{opacity:0;transform:translate(130px,-70px) rotate(-96deg) scaleX(-1)}14%{opacity:1}62%{opacity:1}100%{opacity:0;transform:rotate(-105deg) scaleX(-1)}}
 @keyframes hReveal{from{opacity:0;transform:scale(.92);filter:blur(10px)}to{opacity:1;transform:none;filter:blur(0)}}
 @keyframes hBreathe{0%,100%{transform:scale(1)}50%{transform:scale(1.025)}}
 #hands .hglowd{position:absolute;left:50%;top:50%;width:240px;height:240px;margin:-120px 0 0 -120px;border-radius:50%;background:radial-gradient(circle,rgba(255,224,150,.7) 0%,rgba(255,224,150,.25) 40%,rgba(255,224,150,0) 68%);opacity:0}
